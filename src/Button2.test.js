@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import renderer from 'react-test-renderer'
 import 'jest-styled-components'
 
-import { Button } from './Button2'
+import { Button2 } from './Button2'
 
-test('yo wup', () => {
-    const tree = renderer.create(<Button />).toJSON()
+test('Button2', () => {
+    const tree = renderer.create(<Button2 />).toJSON()
     //expect(tree).toMatchSnapshot()
     expect(tree).toHaveStyleRule('color', 'red')
 })
