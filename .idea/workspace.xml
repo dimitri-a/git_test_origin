@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68770c8d-da45-4ce3-a1db-c0e1063ca373" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Button.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Button3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Button3.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__snapshots__/Button.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button2.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button2.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Button.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,40 +19,42 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="js" value="13" />
+          <entry key="js" value="20" />
           <entry key="json" value="1" />
+          <entry key="md" value="1" />
           <entry key="snap" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="13" />
+          <entry key="JavaScript" value="20" />
           <entry key="Jest Snapshot" value="3" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="8" />
-          <entry key="js" value="260" />
+          <entry key="js" value="494" />
+          <entry key="md" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="260" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="JavaScript" value="494" />
+          <entry key="PLAIN_TEXT" value="58" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Button.test.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Button3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="90">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -60,10 +63,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Button.js">
+        <entry file="file://$PROJECT_DIR$/src/Button2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="14" />
+            <state relative-caret-position="88">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Button3.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,8 +103,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/Button2.js" />
         <option value="$PROJECT_DIR$/src/Button2.test.js" />
-        <option value="$PROJECT_DIR$/src/Button.js" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/Button.test.js" />
+        <option value="$PROJECT_DIR$/src/Button.js" />
+        <option value="$PROJECT_DIR$/src/Button3.js" />
+        <option value="$PROJECT_DIR$/src/Button3.test.js" />
       </list>
     </option>
   </component>
@@ -155,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Jest.button test">
+  <component name="RunManager" selected="Jest.button3 test">
     <configuration name="button test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -165,6 +183,18 @@
       <test-file value="$PROJECT_DIR$/src/Button.test.js" />
       <test-names>
         <test-name value="button test" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="button3 test" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/Button3.test.js" />
+      <test-names>
+        <test-name value="button3 test" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -192,18 +222,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/App.test.js" />
-      <test-names>
-        <test-name value="renders without crashing" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="yo wup" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -217,19 +235,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Jest.renders without crashing" />
       <item itemvalue="Jest.renders without crashing (1)" />
       <item itemvalue="Jest.it works" />
       <item itemvalue="Jest.yo wup" />
       <item itemvalue="Jest.button test" />
+      <item itemvalue="Jest.button3 test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.button3 test" />
         <item itemvalue="Jest.button test" />
         <item itemvalue="Jest.yo wup" />
         <item itemvalue="Jest.it works" />
         <item itemvalue="Jest.renders without crashing (1)" />
-        <item itemvalue="Jest.renders without crashing" />
       </list>
     </recent_temporary>
   </component>
@@ -243,44 +261,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539500705131</updated>
-      <workItem from="1539500706785" duration="3725000" />
+      <workItem from="1539500706785" duration="4540000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="button_test - 2018.10.14 at 20h 59m 02s.xml">
+    <history-entry file="button_test - 2018.10.14 at 21h 07m 56s.xml">
       <configuration name="button test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="yo_wup - 2018.10.14 at 21h 00m 10s.xml">
-      <configuration name="yo wup" configurationId="JavaScriptTestRunnerJest" />
-    </history-entry>
-    <history-entry file="button_test - 2018.10.14 at 21h 00m 55s.xml">
+    <history-entry file="button_test - 2018.10.14 at 21h 15m 09s.xml">
       <configuration name="button test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="button_test - 2018.10.14 at 21h 01m 24s.xml">
-      <configuration name="button test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="button3_test - 2018.10.14 at 21h 15m 13s.xml">
+      <configuration name="button3 test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="button_test - 2018.10.14 at 21h 01m 54s.xml">
-      <configuration name="button test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="button3_test - 2018.10.14 at 21h 15m 40s.xml">
+      <configuration name="button3 test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="button_test - 2018.10.14 at 21h 04m 20s.xml">
-      <configuration name="button test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="button3_test - 2018.10.14 at 21h 17m 19s.xml">
+      <configuration name="button3 test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="button_test - 2018.10.14 at 21h 04m 47s.xml">
-      <configuration name="button test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="button3_test - 2018.10.14 at 21h 18m 01s.xml">
+      <configuration name="button3 test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="button_test - 2018.10.14 at 21h 05m 25s.xml">
-      <configuration name="button test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="button3_test - 2018.10.14 at 21h 18m 45s.xml">
+      <configuration name="button3 test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="button_test - 2018.10.14 at 21h 06m 07s.xml">
-      <configuration name="button test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="button3_test - 2018.10.14 at 21h 19m 02s.xml">
+      <configuration name="button3 test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
-    <history-entry file="button_test - 2018.10.14 at 21h 06m 33s.xml">
-      <configuration name="button test" configurationId="JavaScriptTestRunnerJest" />
+    <history-entry file="button3_test - 2018.10.14 at 21h 19m 18s.xml">
+      <configuration name="button3 test" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="button3_test - 2018.10.14 at 21h 20m 00s.xml">
+      <configuration name="button3 test" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3353000" />
+    <option name="totallyTimeSpent" value="4168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1387" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -407,24 +425,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Button2.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-column="39" />
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Button.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="14" />
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Button.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="350">
+          <caret line="14" column="2" lean-forward="true" selection-end-line="14" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Button2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Button3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Button3.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
