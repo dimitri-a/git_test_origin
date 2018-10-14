@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button3 test 1`] = `
+.c0 {
+  color: red;
+}
+
+<div>
+  Hi there 
+  <button
+    className="c0"
+  >
+    Hi there
+  </button>
+</div>
+`;
