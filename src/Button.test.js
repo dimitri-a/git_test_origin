@@ -9,7 +9,8 @@ import {Button2} from "./Button2";
 test('button test', () => {
     const tree = renderer.create(<Button primary /> ).toJSON()
     expect(tree).toMatchSnapshot()
-    console.log(tree);
+    debugger
+   // console.log(tree);
     expect(tree).toHaveStyleRule('color', 'white')
     expect(tree).toHaveStyleRule('background', 'red')
 })
