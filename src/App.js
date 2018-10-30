@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-     This is changed in develop branch
+     This is changed in feature branch
         
       </div>
     );
